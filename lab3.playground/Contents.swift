@@ -91,6 +91,17 @@ class ShoppingCart {
     var displaySubTotal: String {
         return String(format: "$%.2f", subtotal)
     }
+    func printCartContents() {
+            if items.isEmpty {
+                print("Cart is empty")
+            } else {
+                print("Cart contents:")
+                for item in items {
+                    print("- \(item.product.name) x\(item.quantity) = \(item.subtotal)")
+                }
+                print("Subtotal: \(displaySubTotal), Total with discount: \(displayTotal)")
+            }
+        }
     
     // Размер скидки
     enum DiscountCode {             // фиксированная вариация скидок у нас есть в магазине - только вот 10/20 процентов или ничего
@@ -163,6 +174,17 @@ struct Order {                  //если передать заказ друг�
         items.reduce(0) { $0 + $1.quantity }            // Складываем количество каждого товара
     }
     
+    func printOrderSummary() {
+            print("Order ID: \(orderId)")
+            print("Date: \(timestamp)")
+            print("Shipping to:\n\(shippingAddress.formattedAddress)")
+            print("Items:")
+            for item in items {
+                print("- \(item.product.name) x\(item.quantity) = \(item.subtotal)")
+            }
+            print("Subtotal: \(subtotal), Discount: \(discountAmount), Total: \(total)")
+        }
+    
 }
 extension Order {               //чтобы как то использвать заявленный timestamp как то с функционалом -> расшитываем денб доставки примерно
     var estimatedDeliveryDate: Date {
@@ -192,9 +214,14 @@ cart.addItem(product: headphones, quantity: 1)
 cart.addItem(product: laptop, quantity: 1)
 cart.addItem(product: book, quantity: 3)
 
+cart.printCartContents()
+
 
 cart.updateItemQuantity(productId: laptop.id, quantity: 5)         // демонстрация updateItemQuantity
 print("Updated laptop quantity to 5. Item count: \(cart.itemCount)")
+
+
+cart.printCartContents()
 
 // подсчёты суммы за нашу корзину
 print("Subtotal: \(cart.displaySubTotal)")
@@ -239,6 +266,10 @@ print("Cart item count: \(cart.itemCount)")   // стал 0
 // демонстрация категорий
 print("Laptop category: \(laptop.category.rawValue)")
 print("Book category: \(book.category.rawValue)")
+
+
+order.printOrderSummary()
+
 
 
 
