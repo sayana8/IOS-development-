@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Soniva" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="1WW-Xi-vei">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kino1" translatesAutoresizingMaskIntoConstraints="NO" id="6hz-dV-oen">
+                                <rect key="frame" x="16" y="118" width="361" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6hz-dV-oen" secondAttribute="height" multiplier="361:300" id="TOE-M6-Lnx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhX-TF-3sh">
+                                <rect key="frame" x="16" y="468" width="361" height="18.333333333333314"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Когда">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Copperplate"/>
+                                            <font key="NSOriginalFont" size="17" name="Herculanum"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Copperplate"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="твоя">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Copperplate"/>
+                                            <font key="NSOriginalFont" size="17" name="Herculanum"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Copperplate"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="девушка">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Copperplate"/>
+                                            <font key="NSOriginalFont" size="17" name="Herculanum"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Copperplate"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="больна">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="18" name="Copperplate"/>
+                                            <font key="NSOriginalFont" size="17" name="Herculanum"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NgL-60-7Zh">
+                                <rect key="frame" x="142.66666666666666" y="496.33333333333331" width="107.66666666666666" height="18.333333333333314"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Виктор Цой">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Copperplate-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="roO-el-A24">
+                                <rect key="frame" x="16" y="549.66666666666663" width="361" height="50.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFJ-p1-g4b">
+                                        <rect key="frame" x="0.0" y="0.0" width="105.66666666666667" height="50.333333333333336"/>
+                                        <color key="tintColor" red="0.94764046717171713" green="0.81012329803495775" blue="0.90140903542404338" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Previous" buttonSize="large">
+                                            <attributedString key="attributedSubtitle"/>
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="previousButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="okc-k6-9xf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBb-FT-T9A">
+                                        <rect key="frame" x="127.66666666666666" y="0.0" width="105.66666666666666" height="50.333333333333336"/>
+                                        <color key="tintColor" red="0.80480195555889256" green="0.5425408656446421" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Play" buttonSize="large">
+                                            <attributedString key="attributedSubtitle"/>
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="playButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rgq-aj-kek"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H62-1m-e5G">
+                                        <rect key="frame" x="255.33333333333329" y="0.0" width="105.66666666666666" height="50.333333333333336"/>
+                                        <color key="tintColor" red="0.94764046719999995" green="0.81012329800000005" blue="0.90140903539999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Next" buttonSize="large">
+                                            <attributedString key="attributedSubtitle"/>
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GnM-fv-ARq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1WW-Xi-vei" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="173-HK-myv"/>
+                            <constraint firstItem="roO-el-A24" firstAttribute="top" secondItem="NgL-60-7Zh" secondAttribute="bottom" constant="35" id="2nC-JA-3e7"/>
+                            <constraint firstItem="roO-el-A24" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4fG-2d-I9g"/>
+                            <constraint firstItem="1WW-Xi-vei" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="61o-Ix-aEz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="roO-el-A24" secondAttribute="bottom" constant="184" id="ANP-tJ-lKb"/>
+                            <constraint firstAttribute="trailing" secondItem="1WW-Xi-vei" secondAttribute="trailing" id="BPh-54-6LV"/>
+                            <constraint firstItem="NgL-60-7Zh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JIf-Xa-gGV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="roO-el-A24" secondAttribute="trailing" constant="16" id="MjZ-0X-tuy"/>
+                            <constraint firstItem="roO-el-A24" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NGd-Rc-7K0"/>
+                            <constraint firstItem="6hz-dV-oen" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ned-rD-f3h"/>
+                            <constraint firstAttribute="bottom" secondItem="1WW-Xi-vei" secondAttribute="bottom" id="PJc-ce-BcA"/>
+                            <constraint firstItem="6hz-dV-oen" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UFq-a2-tNG"/>
+                            <constraint firstItem="KhX-TF-3sh" firstAttribute="top" secondItem="6hz-dV-oen" secondAttribute="bottom" constant="50" id="WSK-s1-NEm"/>
+                            <constraint firstItem="NgL-60-7Zh" firstAttribute="top" secondItem="KhX-TF-3sh" secondAttribute="bottom" constant="10" id="aXk-Vd-DYT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KhX-TF-3sh" secondAttribute="trailing" constant="16" id="bKw-xb-ynk"/>
+                            <constraint firstItem="KhX-TF-3sh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bpG-jY-1Ry"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="6hz-dV-oen" secondAttribute="bottom" constant="366" id="t8n-2X-7yK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6hz-dV-oen" secondAttribute="trailing" constant="16" id="wO4-4m-Ysi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="artistLabel" destination="NgL-60-7Zh" id="o7d-Pq-5jc"/>
+                        <outlet property="backgroundImage" destination="6hz-dV-oen" id="zCB-La-Eg6"/>
+                        <outlet property="nextButton" destination="H62-1m-e5G" id="NhB-y2-MBG"/>
+                        <outlet property="playButton" destination="LBb-FT-T9A" id="05j-3E-9Np"/>
+                        <outlet property="previousButton" destination="FFJ-p1-g4b" id="UUb-JF-s9Z"/>
+                        <outlet property="titleLabel" destination="KhX-TF-3sh" id="kK6-ZL-t9u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.572519083969468" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="554" height="1108"/>
+        <image name="kino1" width="1200" height="1200"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
