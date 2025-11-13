@@ -16,14 +16,12 @@ class MovieTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Инициализация ячейки
-        subtitleLabel.numberOfLines = 0  // Позволяет тексту переноситься
-        reviewLabel.numberOfLines = 0    // Позволяет тексту переноситься
+        subtitleLabel.numberOfLines = 0  
+        reviewLabel.numberOfLines = 0
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        // Настройка внешнего вида при выделении
     }
 
 
