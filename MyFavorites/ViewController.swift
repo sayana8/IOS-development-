@@ -58,8 +58,8 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 120
-        tableView.sectionHeaderTopPadding = 0
+        //tableView.estimatedRowHeight = 180
+        //tableView.sectionHeaderTopPadding = 0
 
     }
 }
